@@ -1,4 +1,9 @@
-/* Hide the site title */
-h1 {
+/* Hide the site description */
+h2 {
+  display: none;
+}
+
+/* Hide the GitHub profile link */
+a[href*="github.com"] {
   display: none;
 }
