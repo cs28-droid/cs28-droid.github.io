@@ -12,10 +12,10 @@ h1 {
 }
 
 /* Style for the site description */
-p {
-  font-size: 1.5em;       /* Adjust for desired description size */
+h2 {
+  font-size: 2em;       /* Adjust for desired description size */
   text-align: center;     /* Centers the description */
-  margin-top: 10px;       /* Optional: adds space between title and description */
+  margin-top: 8px;       /* Optional: adds space between title and description */
   font-weight: bold;    /* Optional: normal weight for the description */
   color: #555;            /* Optional: changes text color */
 }
