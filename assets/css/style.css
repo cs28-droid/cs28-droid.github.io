@@ -7,3 +7,12 @@ h2 {
 a[href*="github.com"] {
   display: none;
 }
+
+/* Centralize and style the site title */
+h1 {
+  font-size: 3em;         /* Adjust this for desired title size */
+  text-align: center;     /* Centers the title */
+  margin-top: 50px;       /* Optional: adds some space from the top */
+  font-weight: bold;      /* Optional: makes the title bold */
+}
+
