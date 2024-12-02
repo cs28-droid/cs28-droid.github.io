@@ -5,9 +5,9 @@ a[href*="github.com"] {
 
 /* Style for the site title */
 h1 {
-  font-size: 3em;         /* Adjust for desired title size */
+  font-size: 2em;         /* Adjust for desired title size */
   text-align: center;     /* Centers the title */
-  margin-top: 50px;       /* Optional: adds space from the top */
+  margin-top: 40px;       /* Optional: adds space from the top */
   font-weight: bold;      /* Optional: makes the title bold */
 }
 
