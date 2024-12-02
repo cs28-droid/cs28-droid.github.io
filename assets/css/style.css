@@ -1,0 +1,4 @@
+/* Hide the site title */
+h1 {
+  display: none;
+}
