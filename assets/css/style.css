@@ -1,18 +1,22 @@
-/* Hide the site description */
-h2 {
-  display: none;
-}
-
 /* Hide the GitHub profile link */
 a[href*="github.com"] {
   display: none;
 }
 
-/* Centralize and style the site title */
+/* Style for the site title */
 h1 {
-  font-size: 3em;         /* Adjust this for desired title size */
+  font-size: 3em;         /* Adjust for desired title size */
   text-align: center;     /* Centers the title */
-  margin-top: 50px;       /* Optional: adds some space from the top */
+  margin-top: 50px;       /* Optional: adds space from the top */
   font-weight: bold;      /* Optional: makes the title bold */
+}
+
+/* Style for the site description */
+h2 {
+  font-size: 1.5em;       /* Adjust for desired description size */
+  text-align: center;     /* Centers the description */
+  margin-top: 10px;       /* Optional: adds some space between title and description */
+  font-weight: normal;    /* Optional: normal weight for the description */
+  color: #555;            /* Optional: changes text color */
 }
 
