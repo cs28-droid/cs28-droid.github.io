@@ -20,10 +20,11 @@ h1 {
 
 /* Sidebar Styles */
 .sidebar {
-  width: 250px;        /* Width of the sidebar */
+  width: 250px;            /* Adjust width of the sidebar */
   padding: 15px;
   background-color: #f4f4f4; /* Light background for the sidebar */
   border-radius: 8px;
+  flex-shrink: 0; /* Prevent sidebar from shrinking */
 }
 
 .sidebar h2 {
@@ -52,9 +53,15 @@ h1 {
 
 /* Main Content Styles */
 .content {
-  flex: 1;  /* Content takes the remaining space */
+  flex: 1;  /* Main content takes the remaining space */
   margin-left: 20px; /* Adds space between sidebar and content */
   font-size: 1.2em;
 }
 
-
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
