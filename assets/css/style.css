@@ -1,4 +1,4 @@
-/* Hide the GitHub profile link */
+/* Hide the GitHub profile link */ 
 a[href*="github.com"] {
   display: none;
 }
